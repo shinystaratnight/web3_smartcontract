@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add hardhard
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\SSHFS-Win\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\xampp74\mysql\bin;C:\ProgramData\ComposerSetup\bin;C:\Users\Christopher\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\WinMerge;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Kubernetes\Minikube;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\PostgreSQL\13\lib;C:\Users\Christopher\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\Christopher\AppData\Local\GitHubDesktop\bin;C:\Users\Christopher\.dotnet\tools;C:\Users\Christopher\AppData\Roaming\Pub\Cache\bin;C:\Users\Christopher\AppData\Local\Android\Sdk\emulator;C:\Users\Christopher\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\Christopher\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Christopher\AppData\Local\Programs\Python\Python38\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\Redis;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\OpenSSL-Win64\include;C:\Program Files\GTK2-Runtime Win64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\Christopher\AppData\Local\Microsoft\WindowsApps;C:\Users\Christopher\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Christopher\AppData\Roaming\Composer\vendor\bin;C:\Users\Christopher\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\13\bin;C:\Users\Christopher\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\Christopher\AppData\Local\GitHubDesktop\bin;D:\Tools\Database\Mongo\mongodb-database-tools-windows-x86_64-100.5.0\bin;C:\Users\Christopher\AppData\Roaming\Pub\Cache\bin;D:\LocalData\Tools\flutter\bin;D:\LocalData\Tools\stripe;D:\LocalData\Tools\gradle\bin;C:\Users\Christopher\AppData\Local\Android\Sdk\emulator;C:\Users\Christopher\AppData\Local\Programs\Hyper\resources\bin;C:\Users\Christopher\.dotnet\tools;C:\xampp74\php;C:\Users\Christopher\AppData\Local\.bvm;D:\LocalData\Chocolatey\dart-sdk\bin;C:\Program Files\heroku\bin;C:\Program Files\OpenSSL-Win64\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hardhard: Not found
+      at Request.params.callback [as _callback] (C:\Users\Christopher\AppData\Roaming\nvm\v16.13.2\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\Christopher\AppData\Roaming\nvm\v16.13.2\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\Christopher\AppData\Roaming\nvm\v16.13.2\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\Christopher\AppData\Roaming\nvm\v16.13.2\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
