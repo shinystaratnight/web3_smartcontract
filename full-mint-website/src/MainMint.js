@@ -3,7 +3,7 @@ import { ethers, BigNumber } from 'ethers';
 import roboPunksNFT from './RoboPunksNFT.json';
 
 
-const roboPunksNFTAddress = "0xd93301b0fBbE15DbA6B07AF1CaF0C11cddc47ecd";
+const roboPunksNFTAddress = "0x552459dd3eb5545dE07DD6E6d08eCa200117c5b3";
 
 const MainMint = ({ accounts, setAccounts }) => {
   const [mintAmount, setMintAmount] = useState(2);
